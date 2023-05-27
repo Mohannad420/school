@@ -1,0 +1,16 @@
+#x{
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.8s ease;
+    font-weight: bold;
+}
+body:hover .ok{
+    text-shadow: 0px 2px 15px rgb(30, 255, 0) ;
+}
+body:hover .no{
+    text-shadow:  0px 2px 12px rgb(195, 2, 2)  ;
+}
+thead{
+    position: sticky!important;
+    z-index: 1020!important;
+}
